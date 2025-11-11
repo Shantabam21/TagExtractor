@@ -102,7 +102,6 @@ public class Main extends JFrame {
             }
             textScanner.close();
 
-            // Display results
             textArea.setText("");
             for (String word : wordMap.keySet()) {
                 textArea.append(word + ": " + wordMap.get(word) + "\n");
